@@ -87,7 +87,6 @@ export default function Navbar() {
         <div className={`hamburger-overlay ${isMobileMenuOpen ? "hamburger-overlay--open" : ""}`}>
           {/* Changed background color to dark #1C1B1A */}
           <div className="absolute inset-0 w-full h-full bg-[#1C1B1A]" />
-          <img aria-hidden="true" src="/frame_0083.webp" alt="" className="absolute inset-0 w-full h-full hidden md:block" style={{ objectFit: 'cover', objectPosition: 'center', pointerEvents: 'none', opacity: 0.04, mixBlendMode: 'screen' }} />
           <img aria-hidden="true" src="/wood-texture.jpeg" alt="" className="absolute inset-0 w-full h-full block md:hidden" style={{ objectFit: 'cover', objectPosition: 'center', pointerEvents: 'none', opacity: 0.04, mixBlendMode: 'screen' }} />
           
           <ul className="hamburger-menu-track">
