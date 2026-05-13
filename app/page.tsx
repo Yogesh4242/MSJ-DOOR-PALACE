@@ -16,7 +16,6 @@ export default function HomePage() {
   const heroRef = useRef<HTMLElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const text1Ref = useRef<HTMLDivElement>(null);
-  const text2Ref = useRef<HTMLDivElement>(null);
   const text3Ref = useRef<HTMLDivElement>(null);
   const modelContainerRef = useRef<HTMLDivElement>(null);
 
@@ -49,7 +48,6 @@ export default function HomePage() {
         heroRef={heroRef as React.RefObject<HTMLElement>}
         canvasRef={canvasRef as React.RefObject<HTMLCanvasElement>}
         text1Ref={text1Ref as React.RefObject<HTMLDivElement>}
-        text2Ref={text2Ref as React.RefObject<HTMLDivElement>}
         text3Ref={text3Ref as React.RefObject<HTMLDivElement>}
       />
       
